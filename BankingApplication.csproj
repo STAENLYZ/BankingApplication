@@ -56,6 +56,7 @@
     <Compile Include="Model\Entity\Pelanggan.cs" />
     <Compile Include="Model\Entity\Tabungan.cs" />
     <Compile Include="Model\Entity\Transaksi.cs" />
+    <Compile Include="Model\Repository\TransaksiRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -83,7 +84,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controller\" />
-    <Folder Include="Model\Repository\" />
     <Folder Include="View\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
