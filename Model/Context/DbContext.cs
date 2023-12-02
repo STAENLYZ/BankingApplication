@@ -22,7 +22,7 @@ namespace BankingApplication.Model.Context
             SQLiteConnection conn = null; 
             try 
             {
-                string dbName = @"";
+                string dbName = @"D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\Database\BankingApplication.db";
 
                 string connectionString = string.Format("Data Source={0};FailIfMissing=True", dbName);
                 conn = new SQLiteConnection(connectionString); 

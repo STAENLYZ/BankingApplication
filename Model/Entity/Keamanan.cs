@@ -8,7 +8,7 @@ namespace BankingApplication.Model.Entity
 {
     public class Keamanan
     {
-        public int IdKeamanan { get; set; }
+        public string IdKeamanan { get; set; }
         public string NoRekening{ get; set; }
         public string LastAccesed { get; set; }
         public string AccessHistory { get; set; }

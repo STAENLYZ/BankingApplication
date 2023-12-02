@@ -59,6 +59,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\TransaksiController.cs" />
     <Compile Include="Model\Context\DbContext.cs" />
     <Compile Include="Model\Entity\Keamanan.cs" />
     <Compile Include="Model\Entity\Pelanggan.cs" />
@@ -91,7 +92,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controller\" />
     <Folder Include="View\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

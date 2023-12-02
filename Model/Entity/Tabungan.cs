@@ -8,7 +8,7 @@ namespace BankingApplication.Model.Entity
 {
     public class Tabungan
     {
-        public int IdTabungan{ get; set; }
+        public string IdTabungan{ get; set; }
         public string NoRekening {  get; set; }
         public string JenisTabungan { get; set; }   
         public double SaldoTabungan { get; set; }

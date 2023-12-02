@@ -8,7 +8,7 @@ namespace BankingApplication.Model.Entity
 {
     public class Transaksi
     {
-        public int IdTransaksi { get; set; }
+        public string IdTransaksi { get; set; }
         public string NoRekening { get; set; }
         public string JenisTransaksi { get; set; }
         public string TanggalTransaksi { get; set; }

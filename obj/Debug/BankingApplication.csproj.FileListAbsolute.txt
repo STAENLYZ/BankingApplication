@@ -1,0 +1,4 @@
+D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\obj\Debug\BankingApplication.csproj.AssemblyReference.cache
+D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\obj\Debug\BankingApplication.Properties.Resources.resources
+D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\obj\Debug\BankingApplication.csproj.GenerateResource.cache
+D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\obj\Debug\BankingApplication.csproj.CoreCompileInputs.cache
