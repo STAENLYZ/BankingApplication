@@ -22,7 +22,7 @@ namespace BankingApplication.Model.Repository
             int result = 0;
 
             string sql = @"insert into Tabungan (IdTabungan, NoRekening, JenisTabungan, TanggalBuka, SaldoTabungan) 
-                     values (@IdTabungan, @NoRekening, @JenisTabungan, @TanggalBuka, @SaldoTabungan";
+                     values (@IdTabungan, @NoRekening, @JenisTabungan, @TanggalBuka, @SaldoTabungan)";
 
             using (SQLiteCommand cmd = new SQLiteCommand(sql, _conn))
             {

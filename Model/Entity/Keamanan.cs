@@ -15,5 +15,6 @@ namespace BankingApplication.Model.Entity
         public string NoRekening{ get; set; }
         public string LastAccesed { get; set; }
         public string AccessHistory { get; set; }
+        public string TanggalBuka { get; set; }
     }
 }
