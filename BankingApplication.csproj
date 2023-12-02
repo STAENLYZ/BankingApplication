@@ -59,6 +59,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\PelangganController.cs" />
     <Compile Include="Controller\TabunganController.cs" />
     <Compile Include="Controller\TransaksiController.cs" />
     <Compile Include="Model\Context\DbContext.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="Model\Entity\Pelanggan.cs" />
     <Compile Include="Model\Entity\Tabungan.cs" />
     <Compile Include="Model\Entity\Transaksi.cs" />
+    <Compile Include="Model\Repository\PelangganRepository.cs" />
     <Compile Include="Model\Repository\TabunganRepository.cs" />
     <Compile Include="Model\Repository\TransaksiRepository.cs" />
     <Compile Include="Program.cs" />

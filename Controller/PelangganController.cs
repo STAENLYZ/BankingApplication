@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace BankingApplication.Controller
 {
-    internal class PelangganController
+    public class PelangganController
     {
         private PelangganRepository _PelangganRepository;
 
@@ -34,19 +34,7 @@ namespace BankingApplication.Controller
 
             if (string.IsNullOrEmpty(plg.NamaPelanggan))
             {
-                MessageBox.Show("Nama Pelanggan harus diisi !!!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                return 0;
-            }
-
-            if (string.IsNullOrEmpty(plg.AlamatPelanggan))
-            {
-                MessageBox.Show("Alamat harus diisi !!!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                return 0;
-            }
-
-            if (string.IsNullOrEmpty(plg.NoTelp))
-            {
-                MessageBox.Show("Nomor telepon harus diisi !!!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Nama harus diisi !!!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return 0;
             }
 
@@ -55,11 +43,19 @@ namespace BankingApplication.Controller
                 MessageBox.Show("Email harus diisi !!!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return 0;
             }
+            
             if (string.IsNullOrEmpty(plg.Password))
             {
-                MessageBox.Show("Password harus diisi !!!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show(" Password harus diisi !!!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return 0;
             }
+
+            if (string.IsNullOrEmpty(plg.NoTelp))
+            {
+                MessageBox.Show("Nomer Telepon harus diisi !!!", "Peringatan", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return 0;
+            }
+
 
             using (DbContext context = new DbContext())
             {
