@@ -10,7 +10,7 @@ namespace BankingApplication.Model.Entity
     {
         public string NamaPelanggan { get; set; }
         public string AlamatPelanggan { get; set;}
-        public string NoTelp {  get; set; }
+        public string NoTelp { get; set; }
         public string EmailPelanggan { get; set; }
         public string Password { get; set; }
         public string IdPelanggan { get; set; }

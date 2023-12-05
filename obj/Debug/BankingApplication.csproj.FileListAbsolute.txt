@@ -2,3 +2,16 @@ D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\obj\Debug\BankingAp
 D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\obj\Debug\BankingApplication.Properties.Resources.resources
 D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\obj\Debug\BankingApplication.csproj.GenerateResource.cache
 D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\obj\Debug\BankingApplication.csproj.CoreCompileInputs.cache
+D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\bin\Debug\BankingApplication.exe.config
+D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\bin\Debug\BankingApplication.exe
+D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\bin\Debug\BankingApplication.pdb
+D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\bin\Debug\EntityFramework.dll
+D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\bin\Debug\EntityFramework.SqlServer.dll
+D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\bin\Debug\System.Data.SQLite.dll
+D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\bin\Debug\EntityFramework.xml
+D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\bin\Debug\EntityFramework.SqlServer.xml
+D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\bin\Debug\System.Data.SQLite.xml
+D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\obj\Debug\BankingApplication.View.frmLogin.resources
+D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\obj\Debug\BankingApplication.csproj.CopyComplete
+D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\obj\Debug\BankingApplication.exe
+D:\Files\Project\Development\S3_PL_FINALS\BankingApplication\obj\Debug\BankingApplication.pdb
